@@ -7,15 +7,29 @@
 @media (max-width: 1199.98px) {
 
 }
-
 /* applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-   
+   #header .mobile-nav{
+      background-color: #FCEAE8;
+      padding: 20px 0;
+      margin-top: 10px;
+      border-radius: 20px;
+   }
+   .fr-group {
+      width: 40%;
+      margin-left: 20px;
+   }
+   .fr-group i{
+      padding-top: 0px;
+   }
 }
 
 /* applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-   
+   #banner .slider-title{
+      font-size:46px;
+      line-height: 60px;
+   }
 }
 
 /* applies to x-small devices (portrait phones, less than 576px) */
