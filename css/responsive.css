@@ -56,6 +56,9 @@
 
 /* applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+   .single-shoes{
+      padding: 20px 20px;
+   }
    .contact-form input::placeholder{
       font-size: 13px;
    }
