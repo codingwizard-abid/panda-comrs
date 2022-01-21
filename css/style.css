@@ -16,6 +16,11 @@ body{
 .text-lips{
    color:#FF136F;
 }
+.section-title{
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 54px;
+}
 
 
 /* main css */
@@ -28,6 +33,10 @@ body{
 #header .nav-link{
    font-weight: 500;
    color: #707070;
+   transition: all .3s ease;
+}
+#header .nav-link:hover{
+   color: #FF136F;
 }
 .fr-group i{
    position: absolute;
@@ -52,6 +61,9 @@ body{
 }
 
 /* banner */
+section#banner {
+   margin-top: 125px;
+}
 
 #banner .carousel-item{
    border-radius: 20px;
@@ -66,5 +78,28 @@ body{
 }
 .btn-custom{
    background-color:#FF136F;
+   color: #fff;
+}
+
+/* feature card */
+#cards{
+   padding: 60px 0;
+}
+.f-card-bg-1 {
+   background: linear-gradient(180deg,#FED54A, #FF9347);
+}
+.f-card-bg-2 {
+   background: linear-gradient(180deg, rgba(219,11,95,1) 50%, rgba(175, 108, 251, 0.963) 125%);
+}
+.f-card-bg-3 {
+   background: linear-gradient(180deg, #253898 50%, #836dda 125%);
+}
+.feature-card{
+   border-radius: 20px;
+}
+.feature-card h2{
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 54px;
    color: #fff;
 }
