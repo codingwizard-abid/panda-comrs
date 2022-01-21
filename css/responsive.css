@@ -44,10 +44,20 @@
       font-size:40px;
       line-height: 50px;
    }
+
+   .contact-form input {
+      padding: 10px 85px 10px 10px;
+  }
+   .contact-form button.contact-btn {
+      padding: 10px 20px;
+      font-size: 14px;
+   }
 }
 
 /* applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-   
+   .contact-form input::placeholder{
+      font-size: 13px;
+   }
 }
 
