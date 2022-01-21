@@ -38,6 +38,9 @@ body{
 }
 
 /* main css */
+#header{
+   overflow-x: hidden;
+}
 #header .navbar{
    padding: 30px 0;
 }
