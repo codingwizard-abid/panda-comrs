@@ -77,6 +77,7 @@ body{
 /* banner */
 section#banner {
    margin-top: 125px;
+   overflow-x: hidden;
 }
 
 #banner .carousel-item{
@@ -174,6 +175,7 @@ p.shoes-price{
 /* Footer  */
 #footer{
    background-color: #fadfdc;
+   overflow-x: hidden;
 }
 #footer small {
    font-size: 16px;
